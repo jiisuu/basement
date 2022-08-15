@@ -30,5 +30,5 @@ a = 10
 b = 2
 for i in range(1, 5, 2): #1에서 4까지 2씩, 1,3
     a += i
-
+    
 print(a+b)
