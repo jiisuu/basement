@@ -28,11 +28,15 @@
 # print(hour, minute, second, sep=':')
 
 #10 별찍기, 입력 5, 출력 크리스마스 트리
-x = int(input('크리스마스트리'))
+# x = int(input('크리스마스트리'))
 
+# for i in range(1, x+1):
+#     for j in range(x+1-i):
+#         print(" ",end="")
+#     for j in range(2*i-1):
+#         print("*",end="")
+#     print()
+
+x = int(input())
 for i in range(1, x+1):
-    for j in range(x+1 - i):
-        print(" ", end="")
-    for j in range(2 * i - 1):
-        print("*", end="")
-    print()
+    print(' ' * (x+1-i) + "*"*(2*i-1))
