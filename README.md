@@ -1,3 +1,3 @@
 # basement
-100 days project
+14 days project
 I did it!!!!
